@@ -1,19 +1,27 @@
-# 🎮 Puissance 4 - Jeu Classique
+# 🎮 Connect Four - Web Edition
 
-[![Play Online](https://img.shields.io/badge/Jouer_en_ligne-Live_Demo-brightgreen)](https://connect-four-game-wczt.onrender.com/)
+[![Live Demo](https://img.shields.io/badge/PLAY_NOW-Live_Demo-2ea44f)](https://connect-four-game-wczt.onrender.com/)
 
-![Aperçu du jeu](https://via.placeholder.com/800x400?text=Capture+du+jeu+Puissance+4)
+<img src="https://via.placeholder.com/1200x600?text=Gameplay+Preview" alt="Game preview" width="100%">
 
-## 🌟 Aperçu
-Implémentation web complète du célèbre jeu de stratégie avec :
-- Interface intuitive avec animations fluides
-- Détection intelligente des combinaisons gagnantes
-- Expérience responsive (mobile/desktop)
+## 📖 Table of Contents
+- [Features](#-features)
+- [Tech Overview](#-tech-overview)
+- [How to Play](#-how-to-play)
+- [Project Structure](#-project-structure)
+- [License](#-license)
 
-## ⚙️ Architecture
+## ✨ Features
+| Category        | Highlights                    |
+|----------------|------------------------------|
+| **Gameplay**   | Player vs AI • Win detection |
+| **UI/UX**      | Responsive design • Animations |
+| **Performance** | Fast response times • Lightweight |
+
+## 🛠 Tech Overview
 ```mermaid
-flowchart LR
-    F[Frontend] -->|HTTP| B[Backend]
-    B -->|JSON| F
-    style F fill:#f9f,stroke:#333
-    style B fill:#0af,stroke:#333
+pie
+    title Technology Distribution
+    "Frontend" : 45
+    "Backend" : 35
+    "AI Logic" : 20

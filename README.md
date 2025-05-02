@@ -1,26 +1,19 @@
 # 🎮 Puissance 4 - Jeu Classique
 
-[![Play Online](https://img.shields.io/badge/Play-Online-brightgreen)](https://connect-four-game-wczt.onrender.com/)
+[![Play Online](https://img.shields.io/badge/Jouer_en_ligne-Live_Demo-brightgreen)](https://connect-four-game-wczt.onrender.com/)
 
-![Preview du jeu](https://via.placeholder.com/800x400?text=Connect+4+Preview)
+![Aperçu du jeu](https://via.placeholder.com/800x400?text=Capture+du+jeu+Puissance+4)
 
 ## 🌟 Aperçu
-Jeu de Puissance 4 entièrement fonctionnel avec :
-- Interface intuitive
-- Système de victoire automatique
-- Design responsive (mobile/desktop)
+Implémentation web complète du célèbre jeu de stratégie avec :
+- Interface intuitive avec animations fluides
+- Détection intelligente des combinaisons gagnantes
+- Expérience responsive (mobile/desktop)
 
-## 🎯 Fonctionnalités
-| Mode          | Détails                      |
-|---------------|------------------------------|
-| 🔴 Joueur vs IA | Niveau facile/moyen          |
-| 🟡 Animations  | Effets visuels fluides        |
-| ♻️ Redémarrage | Nouvelle partie instantanée  |
-
-## 🛠 Technologies (Frontend)
+## ⚙️ Architecture
 ```mermaid
-pie
-    title Stack Frontend
-    "HTML5" : 35
-    "CSS3" : 30
-    "JavaScript" : 35
+flowchart LR
+    F[Frontend] -->|HTTP| B[Backend]
+    B -->|JSON| F
+    style F fill:#f9f,stroke:#333
+    style B fill:#0af,stroke:#333

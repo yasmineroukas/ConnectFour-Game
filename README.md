@@ -19,9 +19,8 @@
 | **Performance** | Fast response times • Lightweight |
 
 ## 🛠 Tech Overview
-```mermaid
-pie
-    title Technology Distribution
+
+    ### Technology Distribution
     "Frontend" : 45
     "Backend" : 35
     "AI Logic" : 20
